@@ -1,0 +1,59 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Cześć", "Czesc", "Witaj", "Jest tu ktos?", "Dzien dobry", "Jak tam", "Co tam", "Jak sie masz?"],
+         "responses": ["Witaj!", "Witaj, dobrze Cie widziec!", "Witaj, jak moge Ci pomoc?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Do widzenia", "Do zobaczenia", "Na razie", "zegnam", "miłego dnia", "milego dnia", "pa"],
+         "responses": ["Do zobaczenia ponownie!", "Milo było z Toba porozmawiac, do zobaczenia!", "Zegnam!"],
+         "context_set": ""
+        },
+        {"tag": "purpose",
+         "patterns": ["Jaki jest twoj cel", "jakie jest twoje zadanie", "czym sie zajmujesz", "co robisz", "od czego jestes"],
+         "responses": ["Jestem Botem firmy CD Projekt Red! Jestem tutaj aby odpowiedziec na Twoje pytania"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["Nazwa firmy", "firma", "Dla kogo pracujesz" ],
+         "responses": ["CD Projekt Red"],
+         "context_set": ""
+        },
+        {"tag": "contact",
+         "patterns": ["Jaki jest numer telefonu do was?", "Jaki jest adres email do was?", "sposoby kontaktu", "email", "mail", "telefon", "kontakt","jak mozna sie skontaktowac"],
+         "responses": ["Numer telefonu do konsultanta to 123456789 \n Adres email to cdprojektred@gmail.com \n Zapraszamy do kontaktu!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["Kiedy otwieracie", "W jakich godzinach pracujecie", "godziny otwarcia", "kiedy otwarte", "otwarcie"],
+         "responses": ["Jestesmy otwarci od poniedziałku do piątku w godzinach 8-16"],
+         "context_set": ""
+        },
+        {"tag": "games",
+         "patterns": ["Jakie macie produkty", "jakie stworzyliscie gry", "jakie zrobiliscie gry", "rodzaje gier", "gry", "produkty"],
+         "responses": ["Naszymi najpopularniejszymi produktami sa gry z serii Wiedzmina oraz najnowsza produkcja Cyberpunk 2077"],
+         "context_set": ""
+        },
+        {"tag": "cyberpunk",
+         "patterns": ["kiedy premiera Cyberpunka", "kiedy wychodzi Cyberpunk", "cyberpunk", "cyberpunk 2077", "premiera"],
+         "responses": ["Cyberpunk 2077 swoja premiere ma 10 Grudnia! Zachecamy do wyprobowania! "],
+         "context_set": ""
+        },
+        {"tag": "witcher",
+         "patterns": [ "na czym oparty jest wiedzmin", "skad idea na stowrzenie wiedzmina", "na czym sie wzorowaliscie przy tworzeniu wiedzmina", "jakie jest zrodlo wiedzmina"],
+         "responses": ["Seria gier Wiedzmin została oparta na ksiązkach Andrzeja Sapkowskiego! Zachecamy do przeczytania!"],
+         "context_set": ""
+        },
+        {"tag": "creation",
+         "patterns": [ "Kiedy powstała frima", "kiedy utworzyliscie firme", "kiedy otworzyliscie firme", "Kiedy powstało CD Projekt Red", "kiedy utworzyliscie CD projekt red",
+           "kiedy otworzyliscie cd projekt red" , "w ktorym roku powstala firma", "w ktorym roku powstalo cd projekt red"],
+         "responses": ["CD Projekt zostala załozona w roku 1994 w Warszawie. "],
+         "context_set": ""
+        },
+        {"tag": "creators",
+         "patterns": [ "Kto stworzył firme", "kto zalozyl firme", "kto założył firme", "kim są założyciele", "kto stworzył cd projekt red", "kto zalozyl cd projekt red", "kto założył cd projekt red"],
+         "responses": ["Zalozycielami CD Projekt sa Marcin Iwinski oraz Michal Kicinski. "],
+         "context_set": ""
+        }
+   ]
+}
