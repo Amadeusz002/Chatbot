@@ -1,2 +1,2 @@
 # Chatbot
-Chatbot made in python for PBasics of Artificial Inteligence 
+Chatbot made in python for Basics of Artificial Inteligence 
